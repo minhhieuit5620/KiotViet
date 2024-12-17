@@ -16,13 +16,7 @@ namespace KiotViet
         }
 
         static void Ex1(int quantity)
-        {                    
-            if (quantity <= 0 || quantity >= 100000)
-            {
-                Console.WriteLine("Invalid input. Please enter a number between 1 and 99999.");
-                return;
-            }
-
+        {                                
             int totalDrinks = 0;
             int emptyBottles = 0;
          
